@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مشخصات محصول</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  .popopopo {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 15px 15px 10px rgba(65, 65, 65, 0.1);
+    overflow: hidden;
+  }
+  #product-tableeex {
+  width: 100%;
+  border-collapse: collapse;
+  width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 15px 15px 10px rgba(65, 65, 65, 0.1);
+    overflow: hidden;
+}
+
+#product-tableeex td {
+  font-size: 0.9em;
+  width: 50%;
+  padding: 15px 20px;
+  text-align: right;
+  border-bottom: 1px solid #bebebe;
+}
+
+#product-tableeex tr:last-child td {
+  border-bottom: none;
+}
+
+#product-tableeex td:first-child {
+  background-color: #e0e0e0;
+  font-weight: bold;    
+}
+
+#product-tableeex td:last-child {
+  background-color: #faf9f9;
+}
+
+
+#onvane-jadval{
+font-size: 20px;
+font-weight: bold;    
+color: red;
+margin-top: 16px;
+}
+
+
+/* برای نمایش در موبایل */
+@media only screen and (max-width: 600px) {
+  #product-tableeex td {
+    font-size: 0.8em; /* تنظیم سایز فونت برای نمایش در موبایل */
+    padding: 10px 15px; /* تنظیم پدینگ برای نمایش در موبایل */
+  }
+  #onvane-jadval {
+    font-size: 16px; /* تنظیم سایز فونت برای نمایش در موبایل */
+    margin-top: 10px; /* تنظیم فاصله بالایی برای نمایش در موبایل */
+  }
+}
+
+</style>
+</head>
+<body>
+
+  <table id="product-tableeex">
+    <tbody>
+      <tr>
+        <td>ویژگی</td>
+        <td>جزئیات</td> 
+      </tr>
+      <tr>
+        <td>ABC123</td>
+        <td>مدل</td>
+      </tr>
+      <tr>
+        <td>Black</td>
+        <td>رنگ</td>
+      </tr>
+      <tr>
+        <td>10 x 5 x 3 inches</td>
+        <td>ابعاد</td>
+      </tr>
+      <tr>
+        <td>1.5 lbs</td>
+        <td>وزن</td>
+      </tr>
+      <tr> <!-- حذف کلاس برای حذف خط بردار زیرین -->
+        <td>Aluminum</td>
+        <td>مواد</td>
+      </tr>
+      <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+<p id="onvane-jadval">مشخصات ای سی</p>
+</body>
+</html>
